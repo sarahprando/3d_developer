@@ -1,7 +1,11 @@
 import { paschoalotto, auaha } from "../assets/images";
 import {
-    car,
-    contact,
+    dogs,
+    animals,
+    slide,
+    moone,
+    list,
+    bikcraft,
     css,
     git,
     github,
@@ -11,8 +15,6 @@ import {
     python,
     linkedin,
     react,
-    tailwindcss,
-    threejs,
     rstudio,
     postgresql,
 } from "../assets/icons";
@@ -56,16 +58,6 @@ export const skills = [
     {
         imageUrl: react,
         name: "React",
-        type: "Frontend",
-    },
-    {
-        imageUrl: tailwindcss,
-        name: "Tailwind CSS",
-        type: "Frontend",
-    },
-    {
-        imageUrl: threejs,
-        name: "Three.js",
         type: "Frontend",
     },
     {
@@ -120,28 +112,58 @@ export const experiences = [
 
 export const socialLinks = [
     {
-        name: 'Contact',
-        iconUrl: contact,
-        link: '/contact',
-    },
-    {
         name: 'GitHub',
         iconUrl: github,
-        link: 'https://github.com/YourGitHubUsername',
+        link: 'https://github.com/sarahprando',
     },
     {
         name: 'LinkedIn',
         iconUrl: linkedin,
-        link: 'https://www.linkedin.com/in/YourLinkedInUsername',
+        link: 'https://www.linkedin.com/in/sarah-prando-26a5751b4/',
     }
 ];
 
 export const projects = [
     {
-        iconUrl: car,
-        theme: 'btn-back-blue',
-        name: 'Car Finding App',
-        description: 'Designed and built a mobile app for finding and comparing cars on the market, streamlining the car-buying process.',
-        link: 'https://github.com/adrianhajdin/project_next13_car_showcase',
+        iconUrl: dogs,
+        theme: 'btn-back',
+        name: 'Dogs',
+        description: 'Developed in the React course, Dogs social network.',
+        link: 'https://dogs-origamid.000webhostapp.com/',
+    },
+    {
+        iconUrl: animals,
+        theme: 'btn-back',
+        name: 'Fantastic Beasts',
+        description: 'Developed in the JavaScript course, Fantastic Beasts.',
+        link: 'https://sarahprando.github.io/exercicios-origamid/animais-fantasticos/index.html',
+    },
+    {
+        iconUrl: slide,
+        theme: 'btn-back',
+        name: 'Slide',
+        description: 'Developed in the JavaScript course, Slide.',
+        link: 'https://sarahprando.github.io/slide/index.html',
+    },
+    {
+        iconUrl: moone,
+        theme: 'btn-back',
+        name: 'Studio Moone',
+        description: 'Personal project to deepen knowledge in HMTL, CSS Grid, Studio Moone to buy personalized jewelry.',
+        link: 'https://sarahprando.github.io/studio-moone/assents/home.html',
+    },
+    {
+        iconUrl: list,
+        theme: 'btn-back',
+        name: 'Supermarket List',
+        description: 'Personal project to deepen knowledge in JavaScript, application for market listing.',
+        link: 'https://sarahprando.github.io/supermarket-list/',
+    },
+    {
+        iconUrl: bikcraft,
+        theme: 'btn-back-white',
+        name: 'Bikcraft',
+        description: 'Developed in the HTML and CSS course, custom-made bicycles.',
+        link: 'https://sarahprando.github.io/exercicios-origamid/bikcraft/home.html',
     },
 ];
