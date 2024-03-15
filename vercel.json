@@ -3,9 +3,11 @@
         "silent": true
     },
     "rewrites": [
+
         {
             "source": "/(.*)",
             "destination": "/"
         }
+        
     ]
 }
