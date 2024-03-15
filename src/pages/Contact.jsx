@@ -68,6 +68,7 @@ const Contact = () => {
 
         <form
           data-netlify="true"
+          method="POST"
           name="contact"
           ref={formRef}
           onSubmit={handleSubmit}
