@@ -67,7 +67,6 @@ const Contact = () => {
         <h1 className="head-text">Get in Touch</h1>
 
         <form
-          action="https://formsubmit.co/sarahprando40@gmail.com"
           ref={formRef}
           onSubmit={handleSubmit}
           className='w-full flex flex-col gap-7 mt-14'
