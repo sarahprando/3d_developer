@@ -6,6 +6,6 @@
  <img alt="Sarah-React" src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB">
 </div>
 <br>
-<p align="center"><a href="https://3d-portfolio-alpha-pearl.vercel.app/"><img alt="Sarah-Portfolio" src="src/assets/images/page.PNG"></a></p>
+<p align="center"><a href="https://sarahprando.netlify.app/"><img alt="Sarah-Portfolio" src="src/assets/images/page.PNG"></a></p>
 <br>
 
