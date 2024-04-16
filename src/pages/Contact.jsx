@@ -7,6 +7,7 @@ import Loader from '../components/Loader';
 import Fox from '../components/models/Fox';
 import useAlert from '../hooks/useAlert';
 import Alert from '../components/Alert';
+import Footer from '../components/Footer';
 
 const Contact = () => {
   const formRef = useRef();
@@ -168,7 +169,9 @@ const Contact = () => {
           </Suspense>
         </Canvas>
       </div>
+
     </section>
+    
   );
 };
 

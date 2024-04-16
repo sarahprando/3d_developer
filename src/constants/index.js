@@ -17,6 +17,10 @@ import {
     react,
     rstudio,
     postgresql,
+    mysql,
+    php,
+    wordpress,
+    java
 } from "../assets/icons";
 
 export const skills = [
@@ -69,7 +73,27 @@ export const skills = [
         imageUrl: postgresql,
         name: "PostgreSQL",
         type: "Backend",
+    }, 
+    {
+        imageUrl: mysql,
+        name: "MySQL",
+        type: "Backend",
+    }, 
+    {
+        imageUrl: php,
+        name: "PHP",
+        type: "Backend",
+    }, 
+    {
+        imageUrl: wordpress,
+        name: "WordPress",
+        type: "Backend",
     },  
+    {
+        imageUrl: java,
+        name: "Java",
+        type: "Backend",
+    },     
 ];
 
 export const experiences = [

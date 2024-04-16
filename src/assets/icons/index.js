@@ -8,6 +8,10 @@ import python from './python.svg'
 import react from './react.svg'
 import rstudio from './rstudio.svg'
 import postgresql from './postgresql.svg'
+import mysql from './mysql.svg'
+import php from './php.svg'
+import wordpress from './wordpress.svg'
+import java from './java.svg'
 import linkedin from './linkedin.svg'
 import dogs from './dogs.svg'
 import animals from './animals.svg'
@@ -30,6 +34,10 @@ export {
     react,
     rstudio,
     postgresql,
+    mysql,
+    php,
+    wordpress,
+    java,
     linkedin,
     dogs,
     animals,
